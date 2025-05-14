@@ -1,0 +1,122 @@
+/* -- Product Detail Section Styles -- */
+.product-detail {
+    width: 80%;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* -- Product Title Styles -- */
+.product-detail h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* -- Product Image Styles -- */
+.product-detail img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* -- Description, Specs, and Comments Sections Styles -- */
+.product-detail .description,
+.product-detail .specs,
+.product-detail .comments {
+    margin: 10px 0;
+}
+
+/* -- Headings in Product Detail Sections -- */
+.product-detail h3 {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* -- Paragraph Text Styles -- */
+.product-detail p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* -- Product Specifications Styles -- */
+.product-detail .specs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-detail .specs li {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: #444;
+}
+
+/* -- Comments Section Styles -- */
+.product-detail .comments p {
+    font-style: italic;
+    color: #888;
+}
+
+/* -- Buy Button Styles -- */
+.product-detail .btn-buy {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.product-detail .btn-buy:hover {
+    background-color: #45a049;
+}
+
+/* -- Section Styling for Product Details -- */
+.product-detail section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* -- Price Styling -- */
+.price-value {
+  font-size: 1.5em;
+  color: #2e7d32; 
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+/* -- Add to Cart Section Styles -- */
+.add-to-cart {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* -- Add to Cart Button Styles -- */
+.btn-add-to-cart {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #45a049;
+    opacity: 0.8;
+}

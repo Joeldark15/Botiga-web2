@@ -1,0 +1,119 @@
+/* -- General Styles -- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* -- Hero Styles -- */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.hero h2 {
+  color: #333;
+  font-size: 28px;
+}
+
+.hero p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* -- Banner Styles -- */
+.banner {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* -- Product Section Styles -- */
+#titleProd {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 220px;
+  min-height: 320px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  color: #ff5733;
+  margin: 10px 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.product-card p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.product-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+.product-card button:hover {
+  background-color: #218838;
+}
+
+
